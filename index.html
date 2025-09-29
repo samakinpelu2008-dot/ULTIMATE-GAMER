@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate Game Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="hub">
+  <h1>🎮 Ultimate Game Hub</h1>
+  <div class="game-cards">
+    <div class="card" onclick="showGame('tictactoe')">Tic-Tac-Toe</div>
+    <div class="card" onclick="showGame('snake')">Snake</div>
+    <div class="card" onclick="showGame('snakesladders')">Snakes & Ladders</div>
+    <div class="card" onclick="showGame('connect4')">Connect 4</div>
+  </div>
+</div>
+
+<div id="games">
+  <div id="tictactoe" class="game-container"></div>
+  <div id="snake" class="game-container"></div>
+  <div id="snakesladders" class="game-container"></div>
+  <div id="connect4" class="game-container"></div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
